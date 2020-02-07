@@ -1,0 +1,113 @@
+name: test_app
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  dio: ^3.0.7
+  http: ^0.12.0+4
+  flutter_advanced_networkimage: ^0.6.2
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - assets/news1.png
+   - assets/news2.png
+   - assets/news3.png
+   - assets/news4.png
+   - assets/news5.png
+   - assets/news6.png
+   - assets/appbar.png
+   - assets/appbar1.png
+   - assets/appbar2.png
+   - assets/appbar3.png
+   - assets/appbar4.png
+   - assets/appbar5.png
+   - assets/clublogo.png
+   - assets/clublogo1.png
+   - assets/clublogo2.png
+   - assets/logo.png
+   - assets/logo1.png
+   - assets/logo2.png
+   - assets/logo3.png
+   - assets/logo4.png
+   - assets/logo5.png
+   - assets/Image.png
+   - assets/Image2.png
+   - assets/Image3.png
+   - assets/symbol.png
+   - assets/symbol1.png
+   - assets/symbol2.png
+   - assets/img2.png
+   - assets/img22.png
+   - assets/img23.png
+   - assets/img3.png
+   - assets/icon.png
+   - assets/icon2.png
+   - assets/icon3.png
+   - assets/icon5.png
+   - assets/icon6.png
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family:  MyFlutterApp
+      fonts:
+        - asset: fonts/MyFlutterApp.ttf
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
